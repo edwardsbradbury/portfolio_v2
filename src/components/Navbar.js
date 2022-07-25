@@ -22,6 +22,7 @@ function Navbar() {
       <div id='nav-links'>
         <Link href='' css={linkStyles}>Projects</Link>
         <Link href='' css={linkStyles}>About</Link>
+        <Link href='mailto:edwardsbradbury@gmail.com' css={linkStyles}>Email me</Link>
         <Link title='Download my CV as a PDF' href={`${process.env.PUBLIC_URL}/assets/CV.pdf`} css={linkStyles} target='_blank' rel='noopener'>CV</Link>
         <Link title='LinkedIn profile' href='https://www.linkedin.com/in/edwardsbradbury/' css={linkStyles} target='_blank' rel='noopener'>
           <LinkedInIcon />
