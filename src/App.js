@@ -1,6 +1,3 @@
-/** @jsxImportSource @emotion/react */
-
-import { useState } from 'react';
 // import './App.css';
 import Container from '@mui/material/Container';
 import Navbar from './components/Navbar';
@@ -11,13 +8,12 @@ const appStyles = {
   height: '100vh',
   marginTop: 0,
   textAlign: 'center',
-  backgroundColor: '#282c34',
   color: 'white'
 }
 
-function App() {
+const App = () => {
   return (
-    <div className="App" css={appStyles}>
+    <div className='App' style={appStyles}>
       <Container>
         <Navbar />
         <About />
