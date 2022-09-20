@@ -8,7 +8,7 @@ const dfuzeNet = {
       <p>Within 2-3 days of joining ISS Global, I was contributing bug fixes and improvements (largely UX related) to the React + Redux UI. Although hired as a full-stack engineer, my contributions were entirely to the front-end, due to the final push towards the major new release v22.0.0.</p>
       <p>Working on Dfuze Net introduced me to working with UI libraries Material UI and DevExtreme, which has improved my design and layout skills. My command of CSS has also substantially improved through working on Dfuze Net.</p>
       <p>Besides those aspects of my work, this was my first professional software engineering role. Therefore, it was my introduction to sprint meetings and tools such as Jira - which we used for logging tasks and progress against those - and Monday - which we used for more general progress tracking.</p>
-      <p>Product website*: <a href='https://www.parsons.com/products/dfuze/' target='_blank' rel='noreferrer'>https://www.parsons.com/products/dfuze/</a> (*Note: all imagery on the website is of previous versions of the software than what I worked on.)</p>
+      <p>Product website*: <a href='https://www.parsons.com/products/dfuze/' target='_blank' rel='noreferrer'>https://www.parsons.com/products/dfuze/</a> (*<b>Note</b>: all imagery on the website is of previous versions of the software than what I worked on.)</p>
     </>
   ),
   videoSrc: null,
@@ -20,7 +20,7 @@ const homeworkHero = {
   name: 'Homework Hero',
   description: (
     <>
-      <p><a href='https://www.homework-hero.co.uk/' target='_blank' rel='noreferrer'>Homework Hero</a> (live online. NOTE: Only registration, login, search and messaging work).<br/>
+      <p><a href='https://www.homework-hero.co.uk/' target='_blank' rel='noreferrer'>Homework Hero</a> (live online. <b>Note</b>: Only registration, login, search and messaging work).<br/>
           <a href='https://github.com/edwardsbradbury/homework-hero-ui/' target='_blank' rel='noreferrer'>Github repo for UI</a><br/>
           <a href='https://github.com/edwardsbradbury/homework-hero-api/' target='_blank' rel='noreferrer'>Github repo for API</a></p>
       <p>The final project of my degree; the culmination of my time at university. If only I'd been familiar with Material UI or Bootstrap when I developed this... but it scored 73% overall (lecturer's feedback available on request).</p>
@@ -36,7 +36,7 @@ const lessonUp = {
   name: 'LessonUp',
   description: (
     <>
-      <p><a href='https://lessonup.herokuapp.com' target='_blank' rel='noreferrer'>Lesson Up</a> (live on the web. NOTE: I had to remove my Google Translate API key, so that doesn't currently work but may later be restored.)<br/>
+      <p><a href='https://lessonup.herokuapp.com' target='_blank' rel='noreferrer'>Lesson Up</a> (live on the web. <b>Note</b>: I had to remove my Google Translate API key, so that doesn't currently work but may later be restored.)<br/>
       <a href='https://github.com/edwardsbradbury/lessonup' target='_blank' rel='noreferrer'>GitHub repo</a> (including lecturer's feedback).</p>
       <p>A web-application to enable parents in the UK whose first language isn't English to help their children with their homework.</p>
       <p>Vue.js user interface, served by a Node/Express server, hosted on a Heroku dyno. Calls a separate Node/Express REST API with MySQL database, hosted on Heroku. Also depends heavily on Google Cloud Translate API.</p>
