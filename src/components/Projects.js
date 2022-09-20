@@ -24,7 +24,7 @@ const homeworkHero = {
       <p>This project is very similar - in theme and targeting - to the LessonUp project I completed the previous year. Children struggling with their homework isn't honestly a personal cause of mine; it just happened that (during discussions with people, whilst I wasn't sure what type of projects to pursue) people suggested there were demographics who need educational assistance.</p>
       <p>I learned React and Redux Toolkit purely for this project, hoping the experience would help me to secure employment. That paid off when I was interviewed by ISS Global three days after submitting this project and they offered me my current role two weeks later (having completed their coding challenge).</p>
       <p>The backend is an API consisting of Node with Express and Passport middlewares and a MySQL database, very similar to (adapted from) the API I developed a year previously for LessonUp.</p>
-      <p><a href='https://www.homework-hero.co.uk/' target='_blank' rel='noreferrer'>Homework Hero (live online)</a><br/>
+      <p><a href='https://www.homework-hero.co.uk/' target='_blank' rel='noreferrer'>Homework Hero</a> (live online. NOTE: Only registration, login, search and messaging work).<br/>
           <a href='https://github.com/edwardsbradbury/homework-hero-ui/' target='_blank' rel='noreferrer'>Github repo for UI</a><br/>
           <a href='https://github.com/edwardsbradbury/homework-hero-api/' target='_blank' rel='noreferrer'>Github repo for API</a></p>
     </>
