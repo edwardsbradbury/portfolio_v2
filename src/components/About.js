@@ -24,7 +24,7 @@ const About = () => {
             <CardHeader
               title={
                 <>
-                  <p>Currently a full-stack software engineer at ISS Global (a subsidiary of Parsons Corporation). Professionally, I seek problems to solve, challenges to overcome and opportunities to learn new skills, improve existing skills and generally have a sense of progress.</p>
+                  <p>Currently a <b>full-stack software engineer</b> at ISS Global (a subsidiary of Parsons Corporation). Professionally, I seek problems to solve, challenges to overcome and opportunities to learn new skills, improve existing skills and generally have a sense of progress.</p>
                   <p>My hobbies and interests include riding my motorbike, climbing (bouldering), kayaking, long rambles to explore the countryside and cycling.
                     I enjoy challenges, doing things I find difficult or intimidating and a healthy dose of calculated risk.
                     My friends and family would describe me as one of the most self-disciplined, strong-willed, determined people they know.</p>
