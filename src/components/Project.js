@@ -78,8 +78,8 @@ const Project = ({data}) => {
 const YouTube = ({videoSrc}) => {
   return (
     <iframe
-      width='560'
-      height='315'
+      width='100%'
+      height='57%'
       src={videoSrc}
       title='YouTube video player'
       frameBorder='0'
