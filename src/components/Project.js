@@ -38,7 +38,7 @@ const Project = ({data}) => {
           placement='top-start'>
           <div>
             <CardHeader
-              title={data.name}
+              title={`${data.name} (${data.technologies})`}
               onClick={() => setOpen(prev => !prev)}
               sx={headerStyle}
               titleTypographyProps={{variant: 'h5'}}

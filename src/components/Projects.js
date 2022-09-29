@@ -12,8 +12,7 @@ const dfuzeNet = {
     </>
   ),
   videoSrc: null,
-  url: '',
-  gitRepos: null
+  technologies: 'React | Redux | .NET'
 }
 
 const homeworkHero = {
@@ -29,7 +28,8 @@ const homeworkHero = {
       <p>The backend is an API consisting of Node with Express and Passport middlewares and a MySQL database, very similar to (adapted from) the API I developed a year previously for LessonUp.</p>
     </>
   ),
-  videoSrc: 'https://www.youtube.com/embed/Ox_GTEmDLWc'
+  videoSrc: 'https://www.youtube.com/embed/Ox_GTEmDLWc',
+  technologies: 'React | Redux | Node | Express | MySQL'
 }
 
 const lessonUp = {
@@ -44,11 +44,12 @@ const lessonUp = {
       <p>I taught myself Vue.js (+ Vuex global state management and persistence), Passport.js (which necessitated my learning CORS configuration and secure cookies) and learned to use Axios http client to complete this project.</p>
     </>
   ),
-  videoSrc: 'https://www.youtube.com/embed/vefsyGOkEsY'
+  videoSrc: 'https://www.youtube.com/embed/vefsyGOkEsY',
+  technologies: 'Vue | Vuex | Node | Express | MySQL'
 }
 
 const todo = {
-  name: 'Java todo task organiser',
+  name: 'Todo task organiser',
   description: (
     <>
       <p>A todo task organiser for desktop, written in Java JDK 15, using the Swing library for the user interface.</p>
@@ -57,7 +58,8 @@ const todo = {
       <p><a href='https://github.com/edwardsbradbury/java-todo-application' target='_blank' rel='noreferrer'>GitHub repo</a></p>
     </>
   ),
-  videoSrc: 'https://www.youtube.com/embed/AlrN15X_juI'
+  videoSrc: 'https://www.youtube.com/embed/AlrN15X_juI',
+  technologies: 'Java SE | Swing GUI'
 }
 
 const Projects = () => {
